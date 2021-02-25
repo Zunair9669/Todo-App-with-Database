@@ -1,0 +1,230 @@
+body{
+    background: #304352;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+}
+
+
+.to-do{
+    
+  width: 90%;
+  
+}
+.container >h1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #170f3f;
+    font-weight: bolder;
+    color: #b262d1;
+
+}
+
+.container{
+    margin: 0 auto !important;
+    margin-top: 10% !important;
+    width: 420px !important;
+    height: 585px;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 2px 2px 2px rgba(0, 0, 0,0.2);
+    border-bottom-right-radius: 25px;
+    text-align: center;
+    -webkit-animation: scale-in-ver-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: scale-in-ver-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ 
+input:focus{
+  outline: none;
+  -webkit-animation: scale-in-hor-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: scale-in-hor-left 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  border-radius: 10px;
+  background: #355C7D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.input:focus::placeholder{
+  font-weight: 700;
+  color: rgba(0, 0, 0,0.4)
+}
+
+
+.card{ 
+    margin: 0 auto !important;
+    margin-top: 10px !important;
+    width: 85%;
+    text-align: left !important;
+    border-radius: 10px !important;
+    -webkit-animation: scale-in-hor-left 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-hor-left 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    border: none !important;
+}
+.list-group-item{
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-weight: bolder;
+}
+
+
+
+
+
+  
+  @-webkit-keyframes scale-in-hor-left {
+    0% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-hor-left {
+    0% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+
+
+  @-webkit-keyframes scale-in-ver-bottom {
+    0% {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-ver-bottom {
+    0% {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+      opacity: 1;
+    }
+  }
+  
+
+/* ........................BUTTONS................... */
+
+
+.btn-outline-primary{
+    font-weight: bolder !important;
+}
+
+
+.btn-outline-primary:focus{
+    box-shadow: none !important;
+}
+
+.btn-outline-danger:focus{
+    box-shadow: none !important;
+}
+
+.btn-outline-danger{
+    font-weight: bolder !important;
+}
+
+
+.btn-outline-info{
+    position: absolute;
+    right: 26%;
+    font-size: 13px !important;
+    bottom: 2px; 
+    font-weight: bolder !important;
+}
+
+.btn-outline-info:focus{
+    box-shadow: none !important;
+}
+
+.btn-outline-dark{
+    position: absolute;
+    right: 2px;
+    font-size: 13px !important;
+    bottom: 2px; 
+    font-weight: bolder !important;
+}
+
+
+
+
+
+
+
+/* ....................MEDIA QUERIES................ */
+
+@media only screen and (max-width: 400px){
+    .container{
+        width: 100% !important;
+    }
+    .input{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .card{
+        width: 90% !important;
+        margin-top: 25px !important;
+    }
+
+    .btn-outline-info{
+        margin-right: 2px !important;
+        font-size: 12px !important;
+        position: absolute;
+        right: 25%;
+        bottom: 5px;
+
+
+    }
+    .btn-outline-dark{
+        font-size: 12px !important;
+        position: absolute;
+        bottom: 5px;
+    }
+}
